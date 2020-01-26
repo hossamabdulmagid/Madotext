@@ -17,7 +17,11 @@ function App() {
       setPrevPageUrl(res.data.previous)
       setPokemon(res.data.results.map(p => p.name))
     })
+    return () =>{
+       
+    }
   }, [currentPageUrl])
+
   if (loading) return "Loading...."
   return (
     <div className="App">
