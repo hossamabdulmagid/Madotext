@@ -34,8 +34,20 @@
   }
   to {
     transform: rotate(360deg);
-  }
+  } 
 }
 Button{
   margin:4px;
+}
+
+Link{
+  display: flex;
+}
+ul{
+  display: flex;
+  list-style: none;
+
+}
+.saw{
+  margin:20px
 }
